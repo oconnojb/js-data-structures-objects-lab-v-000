@@ -10,5 +10,6 @@ function updateDriverWithKeyAndValue(obj, key, val) {
 
 function destructivelyUpdateDriverWithKeyAndValue(obj, key, val) {
   obj.key = val;
+  console.log(obj)
   return obj
 }
